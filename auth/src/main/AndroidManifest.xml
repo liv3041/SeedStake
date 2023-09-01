@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.auth">
+         <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:enableOnBackInvokedCallback="true">
+        <activity
+            android:name=".view.VerifyOtpActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".view.LoginOtpActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".view.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".view.LoginActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme"/>
+    </application>
+
+</manifest>

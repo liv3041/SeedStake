@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize other attributes of the theme here -->
+    </style>
+    <style name="CustomOutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="boxStrokeColor">@android:color/transparent</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
+    <style name="CustomOutlinedBox_Focused" parent="CustomOutlinedBox">
+        <item name="boxStrokeWidth">0dp</item>
+    </style>
+    <style name="CounterStyle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/lime_green</item>
+        <!--other parameters that you want to change -->
+    </style>
+
+</resources>

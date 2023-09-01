@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.LoginOtpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:baselineAligned="false"
+            android:layout_marginStart="60dp"
+            android:text="OTP Verification"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_marginTop ="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/country"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:background="@drawable/custom_et"
+                app:ccp_showPhoneCode="false"
+                app:ccp_showNameCode="true"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/custom_et"
+                style="@style/CustomOutlinedBox"
+                app:placeholderTextColor="@color/lime_green"
+                app:placeholderTextAppearance="?android:attr/textAppearanceSmall"
+                app:hintTextColor="@color/lime_green"
+                android:textColorHint="@color/black"
+                app:counterEnabled="false"
+                app:counterMaxLength="10"
+                app:hintTextAppearance="@style/CounterStyle"
+                app:cursorColor="@color/lime_green"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/phone_otp"
+                    android:inputType="phone"
+                    android:hint="Phone Number"
+                    android:imeOptions="actionNext"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="30dp"
+            android:id="@+id/getOtp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/lime_green"
+            android:background="@drawable/custom_button"
+            android:textSize="18sp"
+            android:text="Get OTP"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:fontFamily="monospace"
+            android:textStyle="bold|normal"
+            app:backgroundTint="@color/lime_green"
+            app:cornerRadius="30dp"
+            android:gravity="center"/>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:paddingTop="250dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:paddingStart="90dp"-->
+<!--                android:gravity="center"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textAppearance="?android:attr/textAppearanceSmall"-->
+<!--                android:text="Don't have an Account?"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:paddingStart="2dp"-->
+<!--                android:gravity="center"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/lime_green"-->
+<!--                android:textAppearance="?android:attr/textAppearanceSmall"-->
+<!--                android:text="Create one."/>-->
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+
+</ScrollView>

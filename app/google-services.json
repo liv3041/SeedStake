@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "458701711153",
+    "project_id": "fintech-bd963",
+    "storage_bucket": "fintech-bd963.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458701711153:android:9ca43cffb1deb18021f210",
+        "android_client_info": {
+          "package_name": "com.example.seedstake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458701711153-3b4rf2dvr23vm1c7dboj36rpef0b703i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ2oqG0k6ZKQO8LX-4YhQWJpeSu4Bcgjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458701711153-3b4rf2dvr23vm1c7dboj36rpef0b703i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
