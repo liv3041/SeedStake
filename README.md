@@ -13,7 +13,7 @@ https://github.com/liv3041/SeedStake/assets/107946358/d48ea9d4-b799-425b-b2e2-d4
 
 ### Features
 - User Authentication 
-- API Integration  
-- Search Feature  
-- MVVM Architecture 
-- Modular Code   
+- Custom API Integration  
+- Search Feature 
+- MVVM Architecture for clean, maintainable, and testable code. 
+- Modular Code for structured and maintainable codebase.
